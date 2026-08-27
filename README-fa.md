@@ -12,12 +12,19 @@
   <p><strong>ترجمه بی‌درنگ و بصری متون صفحه اندروید با قدرت هوش مصنوعی چندوجهی Gemini 3.6 Flash و ML Kit گوگل.</strong></p>
 
   <p>
+    <a href="https://github.com/navidseyedain/ALSTMobile/releases/latest"><img src="https://img.shields.io/github/v/release/navidseyedain/ALSTMobile?style=for-the-badge&color=00E5FF&logo=github&logoColor=white" alt="Latest Release"></a>
+    <a href="https://github.com/navidseyedain/ALSTMobile/releases/download/v1.0.0/ALST-v1.0.0.apk"><img src="https://img.shields.io/badge/دانلود-فایل%20APK%20(v1.0.0)-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="دانلود APK"></a>
     <a href="https://github.com/navidseyedain/ALSTMobile/stargazers"><img src="https://img.shields.io/github/stars/navidseyedain/ALSTMobile?style=for-the-badge&color=00E5FF&logo=star&logoColor=black" alt="GitHub Stars"></a>
     <a href="https://github.com/navidseyedain/ALSTMobile/network/members"><img src="https://img.shields.io/github/forks/navidseyedain/ALSTMobile?style=for-the-badge&color=7C4DFF&logo=git&logoColor=white" alt="Forks"></a>
     <img src="https://img.shields.io/badge/Android-API%2026%20..%2035-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="پشتیبانی اندروید">
     <img src="https://img.shields.io/badge/Powered%20By-Gemini%203.6%20Flash-00C896?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI">
-    <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="لایسنس MIT"></a>
+  </p>
+
+  <p>
+    <a href="https://github.com/navidseyedain/ALSTMobile/releases/download/v1.0.0/ALST-v1.0.0.apk">
+      <img src="https://img.shields.io/badge/📥%20دانلود%20مستقیم%20فایل%20نصبی%20APK%20(نسخه%20v1.0.0)-00E5FF?style=for-the-badge&labelColor=1F2937" alt="دانلود مستقیم APK">
+    </a>
   </p>
 
   <p>
@@ -269,12 +276,17 @@ ALSTMobile/
 
 ## 🚀 راه‌اندازی و نصب سریع
 
-### پیش‌نیازها
+### 📲 روش ۱: دانلود و نصب مستقیم فایل APK (پیشنهادی)
+1. آخرین نسخه منتشر شده را از [صفحه ریلیزها (Releases)](https://github.com/navidseyedain/ALSTMobile/releases/latest) یا مستقیماً از طریق لینک [دانلود مستقیم APK (نسخه v1.0.0)](https://github.com/navidseyedain/ALSTMobile/releases/download/v1.0.0/ALST-v1.0.0.apk) دانلود کنید.
+2. فایل `.apk` را روی گوشی اندرویدی خود نصب کنید (دسترسی Install from unknown sources را در صورت نیاز فعال نمایید).
+
+### 🛠 روش ۲: بیلد از روی سورس کد
+#### پیش‌نیازها
 - **اندروید استودیو** (نسخه Koala یا جدیدتر)
 - **جاوا**: JDK 17
 - **دستگاه فیزیکی یا شبیه‌ساز**: اندروید 8.0 (API 26) تا اندروید 15 (API 35)
 
-### بیلد و اجرا
+#### بیلد و اجرا
 ```bash
 # ۱. کلون کردن ریپازیتوری
 git clone https://github.com/navidseyedain/ALSTMobile.git

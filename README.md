@@ -12,12 +12,19 @@
   <p><strong>Real-time, in-place visual screen translation for Android powered by Google's Gemini 3.6 Flash & ML Kit.</strong></p>
 
   <p>
+    <a href="https://github.com/navidseyedain/ALSTMobile/releases/latest"><img src="https://img.shields.io/github/v/release/navidseyedain/ALSTMobile?style=for-the-badge&color=00E5FF&logo=github&logoColor=white" alt="Latest Release"></a>
+    <a href="https://github.com/navidseyedain/ALSTMobile/releases/download/v1.0.0/ALST-v1.0.0.apk"><img src="https://img.shields.io/badge/Download-APK%20(v1.0.0)-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"></a>
     <a href="https://github.com/navidseyedain/ALSTMobile/stargazers"><img src="https://img.shields.io/github/stars/navidseyedain/ALSTMobile?style=for-the-badge&color=00E5FF&logo=star&logoColor=black" alt="GitHub Stars"></a>
     <a href="https://github.com/navidseyedain/ALSTMobile/network/members"><img src="https://img.shields.io/github/forks/navidseyedain/ALSTMobile?style=for-the-badge&color=7C4DFF&logo=git&logoColor=white" alt="Forks"></a>
     <img src="https://img.shields.io/badge/Android-API%2026%20..%2035-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Support">
     <img src="https://img.shields.io/badge/Powered%20By-Gemini%203.6%20Flash-00C896?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI">
-    <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
+  </p>
+
+  <p>
+    <a href="https://github.com/navidseyedain/ALSTMobile/releases/download/v1.0.0/ALST-v1.0.0.apk">
+      <img src="https://img.shields.io/badge/📥%20Direct%20Download%20APK%20(v1.0.0)-00E5FF?style=for-the-badge&labelColor=1F2937" alt="Direct Download APK">
+    </a>
   </p>
 
   <p>
@@ -268,12 +275,17 @@ ALSTMobile/
 
 ## 🚀 Quick Start & Installation
 
-### Prerequisites
+### 📲 Option 1: Install Pre-built APK (Recommended)
+1. Download the latest release from [Releases](https://github.com/navidseyedain/ALSTMobile/releases/latest) or click [Direct APK Download (v1.0.0)](https://github.com/navidseyedain/ALSTMobile/releases/download/v1.0.0/ALST-v1.0.0.apk).
+2. Install the `.apk` file on your Android device (ensure "Install from unknown sources" is allowed).
+
+### 🛠 Option 2: Build from Source
+#### Prerequisites
 - **Android Studio** (Koala | Ladybug or newer recommended)
 - **JDK**: Version 17
 - **Device / Emulator**: Android 8.0 (API Level 26) up to Android 15 (API Level 35)
 
-### Build & Run
+#### Build & Run
 ```bash
 # 1. Clone the repository
 git clone https://github.com/navidseyedain/ALSTMobile.git
